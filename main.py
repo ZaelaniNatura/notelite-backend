@@ -15,6 +15,11 @@ YDL_RESOLVE_OPTS = {
     "no_warnings": True,
     "format": "bestaudio/best",
     "noplaylist": True,
+    "extractor_args": {
+        "youtube": {
+            "player_client": ["android", "web"],
+        }
+    },
 }
 
 
